@@ -2,7 +2,7 @@ CHANGE LOG
 ==========
 
 
-## V2.0.6 Alpha (02/01/2014)
+## V2.0.6 Alpha (02/01/2015)
 
 * Composer tweaks
 * Removed the cs fixers
