@@ -9,7 +9,7 @@ CHANGE LOG
 * Refactored to improve performance
 
 
-## V2.0.6 Alpha (02/01/2014)
+## V2.0.6 Alpha (02/01/2015)
 
 * Composer tweaks
 * Removed the cs fixers
