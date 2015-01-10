@@ -2,7 +2,12 @@ CHANGE LOG
 ==========
 
 
-## V2.0.6 Alpha (02/01/2015)
+## V2.0.7 (Upcoming)
+
+* Upgrade to parsedown extra 0.3
+
+
+## V2.0.6 (02/01/2015)
 
 * Composer tweaks
 * Removed the cs fixers
