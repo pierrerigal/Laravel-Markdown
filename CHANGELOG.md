@@ -9,7 +9,12 @@ CHANGE LOG
 * Refactored to improve performance
 
 
-## V2.0.6 Alpha (02/01/2015)
+## V2.0.7 (10/01/2015)
+
+* Upgrade to parsedown extra 0.3
+
+
+## V2.0.6 (02/01/2015)
 
 * Composer tweaks
 * Removed the cs fixers
