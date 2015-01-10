@@ -2,7 +2,7 @@ CHANGE LOG
 ==========
 
 
-## V2.0.7 (Upcoming)
+## V2.0.7 (10/01/2015)
 
 * Upgrade to parsedown extra 0.3
 
