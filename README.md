@@ -41,9 +41,11 @@ Checkout the [2.0 branch](https://github.com/GrahamCampbell/Laravel-Markdown/tre
 
 ## Configuration
 
-Laravel Markdown supports optional configuration.
+Laravel Markdown supports optional configuration through [orchestral/config](https://github.com/orchestral/config).
 
-To get started, first publish the package config file:
+If you want an automated way to publish the config, then install [orchestral/publisher](https://github.com/orchestral/publisher).
+
+You can then publish the config file by running:
 
 ```bash
 $ php artisan publish:config graham-campbell/markdown

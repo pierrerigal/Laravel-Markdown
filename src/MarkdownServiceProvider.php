@@ -12,9 +12,9 @@
 namespace GrahamCampbell\Markdown;
 
 use Illuminate\Contracts\Foundation\Application;
-use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Engines\CompilerEngine;
 use League\CommonMark\CommonMarkConverter;
+use Orchestra\Support\Providers\ServiceProvider;
 
 /**
  * This is the markdown service provider class.
@@ -24,20 +24,13 @@ use League\CommonMark\CommonMarkConverter;
 class MarkdownServiceProvider extends ServiceProvider
 {
     /**
-     * Indicates if loading of the provider is deferred.
-     *
-     * @var bool
-     */
-    protected $defer = false;
-
-    /**
-     * Bootstrap the application events.
+     * Boot the service provider.
      *
      * @return void
      */
     public function boot()
     {
-        $this->package('graham-campbell/markdown', 'graham-campbell/markdown', __DIR__);
+        $this->addConfigComponent('graham-campbell/markdown', 'graham-campbell/markdown', realpath(__DIR__.'/../config'));
 
         if ($this->app['config']['graham-campbell/markdown::views']) {
             $this->enableMarkdownCompiler($this->app);
